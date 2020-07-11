@@ -18,55 +18,6 @@ class cfgpatches
 	};
 };
 
-class CfgSounds 
-{
-	class laat_door_open
-	{
-		sound[] = {"442_laat_2\sounds\LAAT_door_open.wss", 15, 1, 1500};
-		name = "laat_door_open";
-		titles[] = {"laat_door_open"};
-		duration = 3;
-	};
-
-	class laat_door_close 
-	{
-		sound[] = {"442_laat_2\sounds\LAAT_door_close.wss", 15, 1, 1500};
-		name = "laat_door_close";
-		titles[] = {"laat_door_close"};
-		duration = 3;
-	};
-
-	class laat_ramp
-	{
-		sound[] = {"442_laat_2\sounds\LAAT_ramp.wss", 15, 1, 1500};
-		name = "laat_ramp";
-		titles[] = {"laat_ramp"};
-		duration = 2;
-	};
-
-};
-
-class CfgFunctions {
-	class LAAT {
-		class Operation {
-			file = "442_laat_2\Scripts";
-			
-			class Init {
-				postInit = 1;
-			};
-			
-			class ToggleAllDoors {};
-			
-			class ToggleLeftDoors {};
-			
-			class ToggleRightDoors {};
-			
-			class ToggleRamp {};
-		};
-	
-	};
-};
-
 class SensorTemplatePassiveRadar;
 class DefaultVehicleSystemsDisplayManagerLeft
 {
