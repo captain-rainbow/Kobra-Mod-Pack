@@ -35,34 +35,6 @@ class CfgSounds
 
 };
 
-class CfgFunctions 
-{
-	class kobra_Vehicle
-	{
-		class Operation 
-		{
-			file = "kobra_core\Scripts";
-			
-			class Init
-			{
-				postInit = 1;
-			};
-
-            class ImpulsorMonitor {};
-
-            class ImpulseKey {};
-			
-			class RepulseKey {};
-			
-			class ImpulseJoystick {};
-			
-			class RepulseJoystick {};
-
-
-		};
-	};
-};
-
 class cfgFactionClasses
 {
 	class 442_siege_bat
