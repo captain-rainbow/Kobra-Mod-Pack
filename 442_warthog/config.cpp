@@ -799,8 +799,8 @@ class cfgVehicles
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
-			"OPTRE_Vehicles\Warthog\data\warthog_black_co.paa",
-			"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+			"442_warthog\data\cis\warthog_co.paa",
+			"442_warthog\data\cis\warthog_addons_co.paa"
 		};
 		class Turrets: Turrets
 		{
